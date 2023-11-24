@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply block rounded-md px-4 py-2 text-center text-base shadow-sm cursor-pointer;
+  }
+
+  .form-grid {
+    @apply grid grid-flow-row gap-6;
+  }
+}
