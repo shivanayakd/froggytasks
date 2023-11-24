@@ -1,9 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# FrogyTasks
 
-Currently, two official plugins are available:
+A fun and learning app developed using React + Vite + Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Demo
+
+[App Demo](https://65610787e348be265d4d51c0--profound-caramel-ae320f.netlify.app/)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/shivanayakd/froggytasks.git
+```
+
+Go to the project directory
+
+```bash
+  cd froggytasks
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
